@@ -1,3 +1,3 @@
 export const enviroment = {
-	API_URL: "https://sdw-2023-prd.up.railway.app/users/1"
+	API_URL: "http://localhost:3000"
 }

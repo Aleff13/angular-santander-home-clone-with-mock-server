@@ -7,7 +7,7 @@ import { enviroment } from '../environments/environment';
 	providedIn: 'root'
 })
 export class CardsService {
-	private apiUrl = enviroment.API_URL;
+	private apiUrl = `${enviroment.API_URL}/cards`;
 
 	constructor(private http: HttpClient) { }
 

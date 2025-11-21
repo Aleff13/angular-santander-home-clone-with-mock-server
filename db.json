@@ -1,0 +1,77 @@
+{
+  "account": {
+    "name": "John Doe",
+		"account": {
+			"agency": "2001",
+			"number": "01.0023400-9",
+            "balance": 1000,
+	"limit": 2000
+		},
+		"card": {
+			"limit": 2000,
+			"number": "9842"
+		}
+  },
+  "features":[
+    {
+      "description": "conta corrente",
+      "icon": "https://cdn-icons-png.flaticon.com/512/483/483361.png"
+    },
+    {
+      "description": "cartão de débito",
+      "icon": "https://cdn-icons-png.flaticon.com/512/633/633611.png"
+    },
+    {
+      "description": "cartão de crédito",
+      "icon": "https://cdn-icons-png.flaticon.com/512/833/833472.png"
+    },
+    {
+      "description": "transferência via PIX",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1048/1048953.png"
+    },
+    {
+      "description": "transferência TED/DOC",
+      "icon": "https://cdn-icons-png.flaticon.com/512/553/553416.png"
+    },
+    {
+      "description": "poupança",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1027/1027671.png"
+    },
+    {
+      "description": "pagamento de boletos",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1040/1040230.png"
+    },
+    {
+      "description": "investimentos",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2331/2331948.png"
+    },
+    {
+      "description": "empréstimos",
+      "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "description": "recarga de celular",
+      "icon": "https://cdn-icons-png.flaticon.com/512/893/893220.png"
+    },
+    {
+      "description": "seguro",
+      "icon": "https://cdn-icons-png.flaticon.com/512/681/681392.png"
+    },
+    {
+      "description": "extrato e comprovantes",
+      "icon": "https://cdn-icons-png.flaticon.com/512/337/337946.png"
+    },
+    {
+      "description": "câmbio",
+      "icon": "https://cdn-icons-png.flaticon.com/512/1490/1490847.png"
+    },
+    {
+      "description": "cheque especial",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+    },
+    {
+      "description": "atendimento 24h",
+      "icon": "https://cdn-icons-png.flaticon.com/512/597/597177.png"
+    }
+  ]
+}

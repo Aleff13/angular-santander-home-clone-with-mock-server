@@ -8,7 +8,7 @@
 	<div class="carousel">
 		<div class="carousel-item" *ngFor="let item of visibleItems; let i = index">
 			<div class="square">
-				<img [src]="item.icon" alt="{{ item.description }}">
+				<img [src]="item.icon" alt="{{ item.description }}" width="30px">
 				<p>{{ item.description }}</p>
 			</div>
 		</div>

@@ -21,7 +21,7 @@ export class CarouselItemsComponent implements OnInit {
 
 	getFeatures() {
 		this.service.getFeature().subscribe(result => {
-			this.items = result.features;
+			this.items = result;
 			this.updateVisibleItems();
 		})
 	}

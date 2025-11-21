@@ -8,7 +8,7 @@ import { enviroment } from '../environments/environment';
 })
 export class FeaturesService {
 
-	private apiUrl = enviroment.API_URL;
+	private apiUrl = `${enviroment.API_URL}/features`;
 
 	constructor(private http: HttpClient) { }
 
